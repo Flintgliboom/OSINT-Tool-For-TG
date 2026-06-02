@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="56" viewBox="0 0 220 56">
+  <defs>
+    <linearGradient id="btnGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="130%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#1d4ed8" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Button background -->
+  <rect x="2" y="2" width="216" height="52" rx="12" ry="12"
+        fill="url(#btnGrad)" filter="url(#shadow)"/>
+
+  <!-- Download icon -->
+  <g transform="translate(22, 16)" fill="white">
+    <path d="M12 0 L12 16 M6 10 L12 16 L18 10" stroke="white" stroke-width="2.5"
+          stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <rect x="4" y="19" width="16" height="2.5" rx="1.2" fill="white"/>
+  </g>
+
+  <!-- Text -->
+  <text x="116" y="23" font-family="'Segoe UI', Arial, sans-serif" font-size="13"
+        font-weight="700" fill="white" text-anchor="middle" dominant-baseline="middle"
+        letter-spacing="0.5">СКАЧАТЬ</text>
+  <text x="116" y="39" font-family="'Segoe UI', Arial, sans-serif" font-size="10.5"
+        fill="rgba(255,255,255,0.82)" text-anchor="middle" dominant-baseline="middle">
+    TeleOSINT v2.1.0 • Бесплатно
+  </text>
+</svg>

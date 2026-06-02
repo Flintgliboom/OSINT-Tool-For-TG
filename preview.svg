@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="480" viewBox="0 0 800 480">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+    <linearGradient id="panelGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e293b"/>
+      <stop offset="100%" style="stop-color:#0f172a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="480" fill="url(#bg)" rx="14"/>
+
+  <!-- Title bar -->
+  <rect x="0" y="0" width="800" height="40" fill="#1e3a5f" rx="14"/>
+  <rect x="0" y="28" width="800" height="12" fill="#1e3a5f"/>
+  <circle cx="24" cy="20" r="7" fill="#ef4444"/>
+  <circle cx="46" cy="20" r="7" fill="#f59e0b"/>
+  <circle cx="68" cy="20" r="7" fill="#22c55e"/>
+  <text x="400" y="25" font-family="'Courier New', monospace" font-size="13" fill="#94a3b8"
+        text-anchor="middle">TeleOSINT v2.1.0 — OSINT Terminal</text>
+
+  <!-- Left panel: menu -->
+  <rect x="16" y="56" width="230" height="408" fill="#1e293b" rx="8" opacity="0.9"/>
+  <text x="131" y="84" font-family="'Courier New', monospace" font-size="12" fill="#38bdf8"
+        text-anchor="middle" font-weight="bold">[ ГЛАВНОЕ МЕНЮ ]</text>
+
+  <g font-family="'Courier New', monospace" font-size="11.5" fill="#94a3b8">
+    <rect x="24" y="96" width="214" height="26" rx="4" fill="#2563eb" opacity="0.3"/>
+    <text x="36" y="113" fill="#60a5fa">▶  [1]  Поиск пользователя</text>
+    <text x="36" y="139">   [2]  Анализ канала</text>
+    <text x="36" y="161">   [3]  Анализ группы</text>
+    <text x="36" y="183">   [4]  Граф связей</text>
+    <text x="36" y="205">   [5]  Мониторинг слов</text>
+    <text x="36" y="227">   [6]  Экспорт данных</text>
+    <text x="36" y="249">   [7]  VK / Instagram</text>
+    <text x="36" y="271">   [8]  GitHub OSINT</text>
+    <text x="36" y="293">   [9]  Настройки / Прокси</text>
+    <text x="36" y="320" fill="#f87171">   [0]  Выход</text>
+  </g>
+
+  <!-- Status bar in left panel -->
+  <rect x="24" y="380" width="214" height="70" rx="6" fill="#0f172a"/>
+  <text x="131" y="398" font-family="'Courier New', monospace" font-size="9" fill="#475569"
+        text-anchor="middle">[ СТАТУС ]</text>
+  <text x="36" y="414" font-family="'Courier New', monospace" font-size="10" fill="#22c55e">● Подключён к Telegram API</text>
+  <text x="36" y="430" font-family="'Courier New', monospace" font-size="10" fill="#f59e0b">● Tor: не активен</text>
+  <text x="36" y="446" font-family="'Courier New', monospace" font-size="10" fill="#94a3b8">● Сессия: user_session</text>
+
+  <!-- Main panel: results -->
+  <rect x="260" y="56" width="524" height="408" fill="#0f172a" rx="8" opacity="0.95"/>
+  <text x="280" y="80" font-family="'Courier New', monospace" font-size="12" fill="#38bdf8">
+    ┌─ Результаты поиска: @durov ─────────────────────────────┐
+  </text>
+
+  <g font-family="'Courier New', monospace" font-size="11" fill="#94a3b8">
+    <text x="280" y="102" fill="#64748b">│</text>
+    <text x="295" y="102" fill="#e2e8f0" font-weight="bold">Профиль пользователя</text>
+    <text x="280" y="120" fill="#64748b">│</text>
+    <text x="295" y="120">ID:          <tspan fill="#a78bfa">76239155</tspan></text>
+    <text x="280" y="138" fill="#64748b">│</text>
+    <text x="295" y="138">Имя:         <tspan fill="#fbbf24">Pavel Durov</tspan></text>
+    <text x="280" y="156" fill="#64748b">│</text>
+    <text x="295" y="156">Username:    <tspan fill="#34d399">@durov</tspan></text>
+    <text x="280" y="174" fill="#64748b">│</text>
+    <text x="295" y="174">Статус:      <tspan fill="#94a3b8">недавно был в сети</tspan></text>
+    <text x="280" y="192" fill="#64748b">│</text>
+    <text x="295" y="192">Каналы:      <tspan fill="#60a5fa">durov (23.4M подп.)</tspan></text>
+    <text x="280" y="210" fill="#64748b">│</text>
+
+    <text x="280" y="232" fill="#64748b">│</text>
+    <text x="295" y="232" fill="#e2e8f0" font-weight="bold">Анализ активности</text>
+    <text x="280" y="250" fill="#64748b">│</text>
+    <text x="295" y="250">Постов за 30 дней:  <tspan fill="#a78bfa">12</tspan></text>
+    <text x="280" y="268" fill="#64748b">│</text>
+    <text x="295" y="268">Ср. просмотров:     <tspan fill="#fbbf24">8 450 231</tspan></text>
+    <text x="280" y="286" fill="#64748b">│</text>
+    <text x="295" y="286">Пиковое время:      <tspan fill="#34d399">18:00 – 21:00 UTC</tspan></text>
+    <text x="280" y="304" fill="#64748b">│</text>
+
+    <!-- Progress bar simulation -->
+    <text x="280" y="325" fill="#64748b">│</text>
+    <text x="295" y="325">Экспорт данных...</text>
+    <rect x="295" y="332" width="300" height="8" rx="4" fill="#1e293b"/>
+    <rect x="295" y="332" width="186" height="8" rx="4" fill="#2563eb"/>
+    <text x="606" y="340" fill="#60a5fa" font-size="10">62%</text>
+
+    <text x="280" y="360" fill="#64748b">│</text>
+    <text x="295" y="360" fill="#22c55e">[✓] Найдено связей: 47  Экспорт: results/durov.json</text>
+    <text x="280" y="378" fill="#64748b">│</text>
+    <text x="295" y="378" fill="#64748b">Время выполнения: 3.24 сек</text>
+    <text x="280" y="396" fill="#64748b">└────────────────────────────────────────────────────────┘</text>
+  </g>
+
+  <!-- Bottom prompt -->
+  <rect x="260" y="430" width="524" height="30" fill="#1e3a5f" rx="6"/>
+  <text x="276" y="448" font-family="'Courier New', monospace" font-size="11" fill="#38bdf8">teleosint &gt;</text>
+  <text x="350" y="448" font-family="'Courier New', monospace" font-size="11" fill="#e2e8f0">_</text>
+
+  <!-- Badge -->
+  <rect x="610" y="64" width="158" height="26" rx="6" fill="#16a34a" opacity="0.9"/>
+  <text x="689" y="81" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="white"
+        text-anchor="middle" font-weight="bold">✓ Бесплатно • MIT</text>
+</svg>
