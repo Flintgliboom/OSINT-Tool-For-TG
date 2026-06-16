@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![TeleOSINT Preview](preview.png)
+![TeleOSINT Preview](previewmenu.png)
 
 **Бесплатный OSINT-инструмент для Telegram и не только!**
 
