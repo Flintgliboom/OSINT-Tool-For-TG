@@ -8,7 +8,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square&logo=python)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/yourname/teleosint?style=flat-square&color=yellow)](https://github.com/Flintgliboom/teleosint)
+[![Stars](https://img.shields.io/github/stars/yourname/teleosint?style=flat-square&color=yellow)](https://github.com/Flintgliboom/OSINT-Tool-For-TG)
 
 # [Скачать для Windows](https://github.com/Flintgliboom/OSINT-Tool-For-TG/releases/download/Tool/OsintTool.zip)
 
